@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/bertel/Documents/Robotique&IA/MachineLearning"
+set -gx VIRTUAL_ENV "/home/bertel/Documents/RobotiqueIA/MachineLearning"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

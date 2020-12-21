@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/bertel/Documents/Robotique&IA/MachineLearning"
+VIRTUAL_ENV="/home/bertel/Documents/RobotiqueIA/MachineLearning"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
