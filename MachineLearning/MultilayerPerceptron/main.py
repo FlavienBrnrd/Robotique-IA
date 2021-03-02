@@ -11,11 +11,8 @@ trainingI = [[0, 0], [0, 1], [1, 0], [1, 1]]
 trainingO = [0, 1, 1, 0]
 
 brain = nn(nbInputs, nbHidden, nbOutputs, learningRate)
-guess = brain.predict([0, 1])
+guess = brain.predict([1, 1])
 
-for e in range(100):
-    index = randint(0,3)
-    brain.train(trainingI[index], trainingO[index])
-    #print("Training finish")
+print(guess)
 
-
+brain.train(trainingI[0], trainingO[0])
